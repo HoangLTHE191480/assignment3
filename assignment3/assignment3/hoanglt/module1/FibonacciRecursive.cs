@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace assignment3.hoanglt.module1
 {
-    public class FibonacciRecursive
+    public class FibonacciRecursive : IFibonacci
     {
         public int Fun(int n, bool flag)
         {
